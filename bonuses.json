@@ -1,8 +1,44 @@
 {
   "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
-  "source_title": "Not collected yet",
-  "collected_at": null,
-  "record_count": 0,
-  "records": [],
-  "notice": "Starter state only. Run python scraper.py to collect records; no casino data has been manually entered."
+  "source_title": "Casino Bonuses South Africa — Tested & Verified | BetProof",
+  "collected_at": "2026-10-12T10:08:07.634064+00:00",
+  "record_count": 3,
+  "records": [
+    {
+      "casino": "Casino Bonuses South Africa — Tested & Verified",
+      "welcome_bonus": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "wagering_requirement": 1.0,
+      "wagering_text": "Casino bonuses in South Africa range from genuinely useful (Hollywoodbets' R25 free bet at 1x wagering) to mathematically impossible (offshore R24,000 packages at 30x wagering).",
+      "minimum_deposit_amount": null,
+      "currency": null,
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "evidence": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "needs_review": true,
+      "collected_at": "2026-10-12T10:08:07.634039+00:00"
+    },
+    {
+      "casino": "Our top casino bonuses",
+      "welcome_bonus": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "wagering_requirement": 1.0,
+      "wagering_text": "Casino bonuses in South Africa range from genuinely useful (Hollywoodbets' R25 free bet at 1x wagering) to mathematically impossible (offshore R24,000 packages at 30x wagering).",
+      "minimum_deposit_amount": null,
+      "currency": null,
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "evidence": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "needs_review": true,
+      "collected_at": "2026-10-12T10:08:07.634039+00:00"
+    },
+    {
+      "casino": "Every SA casino bonus compared",
+      "welcome_bonus": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "wagering_requirement": 1.0,
+      "wagering_text": "Casino bonuses in South Africa range from genuinely useful (Hollywoodbets' R25 free bet at 1x wagering) to mathematically impossible (offshore R24,000 packages at 30x wagering).",
+      "minimum_deposit_amount": null,
+      "currency": null,
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "evidence": "This hub covers the full bonus landscape for SA players: no-deposit bonuses, free spins, sign-up offers, wagering requirements, and bonus codes — all tested with real deposits and real maths. If a bonus isn't worth claiming, we'll say so. See our testing methodology for how we verify bonus terms.",
+      "needs_review": true,
+      "collected_at": "2026-10-12T10:08:07.634039+00:00"
+    }
+  ]
 }

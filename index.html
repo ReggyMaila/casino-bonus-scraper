@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Casino welcome bonus comparison with source links and collection dates.">
+  <title>Casino Bonus Comparison</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">PUBLIC-SOURCE DATA DEMO</p>
+      <h1>Casino bonus comparison</h1>
+      <p class="intro">A small comparison of welcome offers, wagering requirements and minimum deposits. Always confirm the terms with the operator before acting.</p>
+    </header>
+    <section class="panel" aria-labelledby="offers-title">
+      <div class="panel-heading">
+        <h2 id="offers-title">Latest collected offers</h2>
+        <span id="record-count" class="count">Loading…</span>
+      </div>
+      <p id="status" class="status" role="status">Loading bonus data…</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Casino</th>
+              <th scope="col">Welcome bonus</th>
+              <th scope="col">Wagering requirement</th>
+              <th scope="col">Minimum deposit</th>
+              <th scope="col">Source</th>
+            </tr>
+          </thead>
+          <tbody id="bonus-rows"></tbody>
+        </table>
+      </div>
+      <p class="disclaimer">Bonus terms can change. Values marked “Not found” were not established from the collected text. This page is informational and does not guarantee an offer.</p>
+    </section>
+    <footer>
+      <span>Data is loaded from <code>bonuses.json</code>.</span>
+      <span id="updated"></span>
+    </footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

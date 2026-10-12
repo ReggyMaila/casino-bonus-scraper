@@ -1,0 +1,43 @@
+:root {
+  color-scheme: light;
+  --ink: #172033;
+  --muted: #657086;
+  --line: #e2e7ef;
+  --surface: #ffffff;
+  --page: #f4f6fa;
+  --accent: #2156c5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--page); color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.container { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0; }
+header { margin-bottom: 28px; }
+.eyebrow { color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .12em; }
+h1 { margin: .25rem 0 .65rem; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.12; letter-spacing: -.04em; }
+.intro { max-width: 720px; color: var(--muted); margin: 0; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px; box-shadow: 0 10px 30px rgb(24 39 75 / 5%); }
+.panel-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+h2 { margin: 0; font-size: 1.25rem; }
+.count { color: var(--muted); font-size: .875rem; }
+.status { color: var(--muted); }
+.table-wrap { width: 100%; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { padding: 14px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-size: .78rem; letter-spacing: .035em; text-transform: uppercase; }
+td:first-child { font-weight: 750; min-width: 140px; }
+td { min-width: 130px; }
+a { color: var(--accent); font-weight: 650; }
+.review { display: inline-block; margin-top: 5px; color: #8a4b08; font-size: .75rem; font-weight: 700; }
+.disclaimer, footer { color: var(--muted); font-size: .875rem; }
+footer { display: flex; justify-content: space-between; gap: 12px; margin: 18px 2px 0; flex-wrap: wrap; }
+code { font-size: .85em; }
+@media (max-width: 640px) {
+  .container { width: min(100% - 20px, 1120px); padding: 24px 0; }
+  .panel { padding: 16px 12px; border-radius: 12px; }
+  .panel-heading { align-items: flex-start; flex-direction: column; }
+  th, td { padding: 12px 10px; }
+  table { font-size: .9rem; }
+  footer { flex-direction: column; }
+}

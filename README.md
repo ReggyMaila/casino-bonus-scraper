@@ -9,6 +9,11 @@ A small Python scraper that fetches one public casino comparison page, checks `r
 - An API key for an OpenAI API or a compatible API that supports Chat Completions JSON Schema output
 - Network access to the chosen source and LLM endpoint
 ```
+URL
+
+https://reggymaila.github.io/casino-bonus-scraper/
+
+
 
 ## Output fields
 
